@@ -1,5 +1,5 @@
 import { Schema , model } from "mongoose";
-import { timestamp } from "../../../core/plugins/timestamp.js";
+import { timestamp } from "../../../core/mongoose/plugins/timestamp.js";
 import validator from "validator";
 
 const customerSchema = new Schema(

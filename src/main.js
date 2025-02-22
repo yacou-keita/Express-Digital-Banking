@@ -1,4 +1,4 @@
-import { database } from "./core/database.js";
+import { database } from "./core/mongoose/database.js";
 import  {environnments}  from "./core/constants/enveronnment.js";
 import { Customer } from "./modules/customer/entities/customer.js";
 import { Account } from "./modules/bank/entities/account.js";
@@ -21,11 +21,12 @@ const account = new Account(
     {
         name: 'COMPTE ÉPARGNE',
         balance: 5000,
-        status: AccountStatus.CREATED
+        status: AccountStatus.ACTIVATED,
+        poneNumber:"+225030203040"
       }
 )
 
-custumer.save()
+// custumer.save()
 account.save()
 
 
