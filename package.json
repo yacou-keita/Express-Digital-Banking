@@ -1,0 +1,28 @@
+{
+  "name": "express-digital-banking",
+  "version": "1.0.0",
+  "description": "experimental  training with express , mongoDB and mongoose to discover how it woks",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacou-keita/Express-Digital-Banking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yacou-keita/Express-Digital-Banking/issues"
+  },
+  "homepage": "https://github.com/yacou-keita/Express-Digital-Banking#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9",
+    "validator": "^13.12.0"
+  }
+}
